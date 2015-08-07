@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'GuifxIcon';
+    src: url('Guifx/guifx_v2_transports-webfont.eot');
+    src: url('Guifx/guifx_v2_transports-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/guifx_v2_transports-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ @font-face {
+    font-family: 'Dear';
+    src: url('../fonts/neues_bauen_demo-webfont.eot');
+    src: 
+     url('../font/Dear Annabelle.otf') format('opentype'),
+	 url('../fonts/neues_bauen_demo-webfont.woff') format('woff'),
+	 url('../fonts/neues_bauen_demo-webfont.ttf') format('truetype'),
+	 url('../fonts/neues_bauen_demo-webfont.svg#NeuesBauenDemo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.container{
+	box-sizing:border-box;
+	/*position: absolute;*/
+	width: 100%;
+	height: 100%;
+}  
+.container .cataL{
+	box-sizing:border-box;
+	width: 15%;
+	height: 100%;
+	background-color: #2B4064;
+	overflow: hidden;
+	float: left;
+}
+.container .cataL h4{
+	background-color: #2C3049;
+	color: #FFFFFF;
+	vertical-align: middle; 
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	padding: 10px;
+}
+.container .cataL .addPhoto{
+	overflow: hidden;
+	text-align: right;
+	padding: 30px;
+}
+.container .cataL .addPhoto a{
+	font-size: 10px;
+	font-weight: bold;
+	padding: 5px;
+	padding-right: 20px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	vertical-align: middle;
+	border-radius: 2px;
+	background: url(../img/addPhoto.png) no-repeat  20px center;
+	background-size: 15% ;
+	background-color: #F78755;
+}
+.container .cataL .addPhoto a:hover{
+	color: #000;
+}
+.container .cataL .cataList{
+	overflow: hidden;
+	background-color: #2B446B;
+	color: #94A0B3;
+}
+.container .cataL .cataList li{
+	box-sizing:border-box;
+	padding: 15px;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+}
+.container .cataL .cataList li:hover{
+	background-color: #2D4E7C;
+	color: #fff;
+}
+.container .cataL .cataList .list{
+	display: inline-block;
+	width: 80%
+
+}
+.container .cataL .cataList .handleCata{
+	display: inline-block;
+	visibility: none;
+	font-size: 14px;
+}
+.container .cataL .handleCata .editCata{
+	font-family: 'GuifxIcon';
+	text-decoration: none;
+	color: #94A0B3;
+}
+.container .cataL .handleCata .delCata{
+	font-family: 'GuifxIcon';
+	text-decoration: none;
+	color: #94A0B3;
+}
+.container .cataR{
+	box-sizing:border-box;
+	width: 85%;
+	background-color:#EDEDED;
+	height: 100%;
+	overflow:scroll;
+}
+.container .cataR .upload{
+	box-sizing:border-box;
+	overflow: hidden;
+}
+.container .cataR .upload a{
+	float: right;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 10px 30px;
+	line-height: 10px;
+	text-decoration: none;
+	color: #fff;
+	vertical-align: middle;
+	border-radius: 5px;
+	background-color:#2B4064;
+	margin: 20px;
+}
+.container .cataR .upload a:hover{
+	background-color: #fff;
+	color: #94A0B3;
+}
+.container .cataR .show{
+	overflow: hidden;
+	padding: 0 20px;
+	text-align:justify;
+}
+.container .cataR .show .showList{
+	width: 250px;
+	height: 200px;
+	display: inline-block;
+	padding: 10px;
+	background-color:#FFF;
+	margin-bottom: 20px;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.3 );
+	vertical-align:top;
+}
+.container .cataR .show .showList .img{
+	width: 250px;
+	height: 180px;
+	background :url("../data/pic/1.jpg");
+	background-size: 100% 100%;
+}
+.container .cataR .show .showList .desc{
+	box-sizing:border-box;
+	font-family: "Dear";
+	height: 20px;
+	line-height: 20px;
+}
+.contextMenu{
+	box-sizing:border-box;
+	width: 120px;
+	height: 90px;
+	background-color: #2B4064;
+	padding-top: 15px;
+}
+.contextMenu ul{
+	width: 120px;
+	height: 75px;
+}
+.contextMenu ul li{
+	width: 120px;
+	height: 25px;
+	line-height: 25px;
+	color: #94A0B3;
+	font-weight: bold;
+	font-size: 14px;
+}
+.contextMenu ul li i{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	font-family: "GuifxIcon";
+	text-align:center;
+}
+.contextMenu ul li span{
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+}
